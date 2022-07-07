@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2.HelloController">
+   <children>
+      <Button fx:id="btnMain" layoutX="111.0" layoutY="242.0" mnemonicParsing="false" onAction="#onBtnActon" text="Oblicz!" textFill="RED" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <TextField fx:id="promien" layoutX="62.0" layoutY="49.0" />
+      <TextField fx:id="wysokosc" layoutX="63.0" layoutY="102.0" />
+      <TextField fx:id="grubosc" layoutX="63.0" layoutY="157.0" />
+      <TextField fx:id="kosztNormalnej" layoutX="390.0" layoutY="49.0" />
+      <TextField fx:id="wagaNormalnej" layoutX="391.0" layoutY="102.0" />
+      <TextField fx:id="kosztNierdzewnej" layoutX="392.0" layoutY="157.0" />
+      <TextField fx:id="wagaNierdzewnej" layoutX="391.0" layoutY="216.0" />
+      <Text layoutX="73.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaj promień walca:" />
+      <Text layoutX="76.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaj Wysokość walca:" />
+      <Text layoutX="75.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podaj grubość blachy:" />
+      <Text layoutX="379.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koszt blachy stalowej normalnej:" />
+      <Text layoutX="375.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciężar blachy stalowej normalnej:" />
+      <Text layoutX="376.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koszt blachy stalowej nierdzewnej:" />
+      <Text layoutX="374.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciężar blachy stalowej nierdzewnej:" />
+   </children>
+</AnchorPane>
